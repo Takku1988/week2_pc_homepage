@@ -1,0 +1,199 @@
+/* This html is for PC */
+/* min-width: 960px以上の幅の場合に適応される */
+@media screen and (min-width: 960px){
+body {
+  background-color: #FDFDFD;
+      font-family: "-apple-system,BlinkMacSystemFont,.SFNSDisplay-Regular,Aktiv Grotesk,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,YuGothic,游ゴシック,sans-serif";
+      font-style: normal;
+      font-weight: 400;
+}
+}
+
+/* 全体の共通 */
+@media screen and (min-width: 960px){
+.l-content{
+  width: 960px;
+  background-color: #D3DEF1;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-list{
+  /* margin-t: 0; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-list_title{
+  margin-top: 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+}
+
+.ml10 {
+  margin-left: 10px !important;
+}
+
+/* career section以降の共通 */
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5pm;
+  font-weight: bold;
+}
+
+/* mouse hover時の設定 */
+.hvr-underline-reveal {
+  position: relative;
+}
+
+.hvr-underline-reveal::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #2196F3;
+  transition: all 0.3s ease 0s;
+}
+.hvr-underline-reveal:hover {
+  cursor: pointer;
+}
+.hvr-underline-reveal:hover::after {
+  width: 100%;
+}
+
+/* header設定 */
+@media screen and (min-width: 960px){
+.l-header{
+  width: 100%;
+  margin: 20px 0;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-header_title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+}
+
+h1{
+    margin: .67em 0;
+}
+
+/* careerの設定 */
+@media screen and (min-width: 960px){
+.l-box_items{
+  height: 520px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-box_items_item{
+  width: 300px;
+  height: 220px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-box_items_item_image{
+  max-width: 281px;
+  max-height: 150px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+@media screen and (min-width: 960px){
+.l-box_items_item_title{
+  height: 40px;
+  margin: 10px;
+  vertical-align: center;
+}
+}
+
+/* Bookの設定 */
+@media screen and (min-width: 960px){
+.l-image_items{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-image_items_item{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 5px;
+}
+}
+
+@media screen and (min-width: 960px){
+.l-image_items_item_image{
+  float: left;
+  width: 154px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+}
+
+@media screen and (min-width: 960px){
+.l-image_items_item_title{
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+}
+}
+
+p{
+  margin:0;
+}
+
+/* Articles & Activitiesの設定*/
+.l-list_items{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul{
+  display: block;
+}
+
+@media screen and (min-width: 960px){
+.l-list_items_item{
+  padding: 5px 0;
+}
+}
+
+/* footerの設定*/
+@media screen and (min-width: 960px){
+footer{
+  margin: 40px 0;
+}
+}
+
+.f-right{
+  float: right;
+}
+
+footer a{
+  display: inline-block;
+}
